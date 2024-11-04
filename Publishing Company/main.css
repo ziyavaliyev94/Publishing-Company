@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Lora", serif;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    /* background-color: red; */
+    font-family: "Lora", serif;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.logo h2 {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    line-height: 0.3;
+    margin-top: 20px;
+}
+
+.logo h2 span {
+    color: #ff7a5c;
+}
+
+.logo small {
+    font-size: 13px;
+    opacity: 0.5;
+    letter-spacing: 2px;
+}
+
+.media a {
+    text-align: center;
+    transition: 0.5s;
+}
+
+.media a :hover {
+    background-color: grey;
+    color: white;
+}
+
+.media a i {
+    border: 1px solid rgb(234, 229, 229);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding-top: 12px;
+    color: rgb(55, 53, 53);
+
+}
+
+.form-group input {
+    height: 40px;
+    width: 250px;
+    border-radius: 50px;
+    background-color: rgb(223, 222, 222);
+    border: none;
+    position: relative;
+}
+
+.form-group input::placeholder {
+    padding-left: 20px;
+    border: none;
+    font-size: 14px;
+    color: rgb(46, 42, 42);
+}
+
+.form-group button {
+    position: absolute;
+    border-radius: 0 20px 20px 0;
+    width: 55px;
+    height: 40px;
+    right: 100px;
+    position: absolute;
+    color: white;
+    background-color: #95adbe;
+    border: none;
+}
+
+hr {
+    opacity: 0.1;
+}
+
+.collapse {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    font-family: "Lora", serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    gap: 30px;
+}
+
+ul li a:hover {
+    color: #95adbe !important;
+}
+
+.first {
+    background-image: url(https://preview.colorlib.com/theme/publishingcompany/images/bg_1.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.content{
+    /* background-color: red; */
+    width: 52%;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+
+.content h1{
+    font-size: 60px;
+    color: #000000;
+
+}
+.content button{
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+}
+.view-book{
+    background-color: #95adbe !important;
+    color: white;
+    font-weight: bold;
+}
+.content p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.8);
+}
+.card{
+    background-color: red;
+    background-color: transparent;
+    border: none;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.card img{
+    border-radius: 50%;
+    width: 200px;
+    height: 170px;
+    background-color: #c1b584;
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -85px;
+    left: 150px;
+}
+.second{
+    position: relative;
+}
+footer{
+    margin-top: 300px;
+    background-color: #1a1a1a;
+    color: white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footclas{
+    /* background-color: red; */
+    width: 80%;
+}
+.footclas p{
+    margin-top: 30px;
+}
+.footclas ul li a{
+    color: white;
+   
+}
+.footclas ul li{
+    margin-top: 10px; 
+}
+.footclas ul{
+    margin-top: 30px;
+}
+.footclas h4{
+    margin-left: 30px;
+}
+
+.footclas span a{
+    font-size: 30px;
+}
+.copyright{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+.copyright p{
+    color: rgb(146, 141, 141);
+    position: absolute;
+    left: 180px;
+    top: 40px;
+
+}
+.copyright p span{
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.copyright p span:hover{
+    color: #95adbe;
+}
